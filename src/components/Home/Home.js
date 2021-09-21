@@ -1,0 +1,32 @@
+import React from "react";
+import NavigateNextIcon from "@material-ui/icons/NavigateNext";
+import Fade from "react-reveal/Fade";
+import "./Home.css";
+
+function Home() {
+  return (
+    <div className="home_container">
+      <div className="home_banner">
+        <Fade bottom>
+          <h1 className="home_title">
+            Premium <span className="home_title_span">Fodder</span>
+          </h1>
+          </Fade>
+          <Fade left>
+          <p className="home_description">En busqueda de la excelencia</p>
+          </Fade>
+          <Fade right>
+          <div className="home_buttons">
+            <button className="home_button">
+              <span className="home_button_text">Contactenos</span>
+              <NavigateNextIcon className="icono" />
+            </button>
+          </div>
+          </Fade>
+        
+      </div>
+    </div>
+  );
+}
+
+export default Home;

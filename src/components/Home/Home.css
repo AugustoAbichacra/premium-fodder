@@ -1,0 +1,87 @@
+.home_container{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9) ), url("../../assets/img/prueba_fondo.jpeg") center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home_banner{
+    display: flex;
+    height: 500px;
+    width: 700px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home_title{
+    font-size: 5rem;
+    font-weight: 400;
+    color: white;
+}
+
+.home_title_span{
+    color: mediumseagreen;
+}
+
+.home_description{
+    font-size: 2rem;
+    color: white;
+}
+
+.home_buttons{
+    display: flex;
+    align-items: center;
+    transition: all .3s;
+}
+
+.home_button{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(60, 179, 113);
+    background: rgba(60, 179, 113, 0.9);
+    color: white;
+    margin: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.home_button_text{
+    transition: all .3s;
+}
+
+.home_buttons:hover .home_button_text{
+   margin-right: .5rem;
+}
+
+.home_button:hover{
+    background-color:rgba(60, 179, 113, 1);
+}
+
+@media (max-width: 680px) {
+    .home_banner{
+        width: auto;
+    }
+    .home_title{
+        font-size: 3rem;
+    }
+
+    .home_description{
+        font-size: 1.5rem;
+    }
+    .home_button{
+        font-size: .8rem;
+        font-weight: 300;
+        padding: 5px 10px;
+        margin: 5px;
+    }
+}

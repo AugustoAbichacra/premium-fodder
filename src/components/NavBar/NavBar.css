@@ -1,0 +1,128 @@
+.navbar{
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.navbar_img{
+    font-size: 2rem !important;
+    cursor: pointer;
+    color: rgba(60, 179, 113) !important;
+    margin: 20px;
+}
+
+.navbar_elements{
+    color: white;
+    flex: 1;
+}
+
+.navbar_list{
+    font-weight: 700;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 10px;
+    list-style-type: none;
+    
+}
+
+.navbar_list_item{
+    position: relative;
+    transition: all .3s;
+    padding: 5px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.navbar_list_item:after{
+    content: "";
+    height: 1px;
+    left: 10%;
+    bottom: -3px;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, center 0.3s ease 0s;
+    width: 0;
+}
+
+.navbar_list_item:hover{
+  color:  rgba(60, 179, 113);
+}
+.navbar_list_item:hover:after{
+   width: 80%;
+}
+
+.nav_black{
+    background-color: black;
+}
+
+
+@media (max-width: 680px) {
+    .navbar_logo{
+        display: none;
+    }
+
+    .navbar_elements{
+        display: none;
+    }
+
+    .nav_black{
+        background-color: transparent;
+    }
+
+    .sidebar{
+        position: absolute;
+        z-index: 1000;
+        padding: 20px;
+        color: white;
+        right: 0;
+        width: 30vw;
+        font-weight: bolder;
+        background-color: rgba(0, 0, 0, 0.9);
+        height: 100vh;
+        top: 0;
+        visibility: unset;
+    }
+    
+    .sidebar_list{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .sidebar_list_element{
+        list-style: none;
+        margin: 30px 0;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .sidebar_list_element:after{
+        content: "";
+        height: 1px;
+        left: 0;
+        bottom: -13px;
+        position: absolute;
+        background: #fff;
+        width: 100%;
+        transition: all .2s;
+    }
+
+    .sidebar_list_element:hover:after{
+        background-color: rgba(60, 179, 113);
+    }
+    
+    .icono_menu{
+        padding: 12px;
+        color: white;
+        cursor: pointer;
+        font-size: 2rem !important;
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-left: 10px;
+        background-color: rgba(60, 179, 113);
+    }
+}
