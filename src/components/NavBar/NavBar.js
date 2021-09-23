@@ -4,6 +4,7 @@ import EcoIcon from "@material-ui/icons/Eco";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
 import { Link, animateScroll as scroll } from "react-scroll";
+import { Link as LinkRouter } from "react-router-dom";
 import "./NavBar.css";
 
 function NavBar() {
@@ -12,22 +13,23 @@ function NavBar() {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > 20) {
         handleShow(true);
       } else {
         handleShow(false);
       }
     });
     return () => {
-      window.addEventListener("scroll");
+      window.addEventListener("scroll", () => {});
     };
   }, []);
 
   return (
     <div className={`navbar ${show && "nav_black"}`}>
       <div className="navbar_logo">
-        <EcoIcon className="navbar_img" />
-        {/* <img className="navbar_img" alt="Logo PF" src={Logo}></img> */}
+        <a href="./" className="router">
+          <EcoIcon className="navbar_img" />
+        </a>
       </div>
       <div className="navbar_elements">
         <ul className="navbar_list">
@@ -71,6 +73,9 @@ function NavBar() {
           >
             <li className="navbar_list_item">TESTIMONIALES</li>
           </Link>
+          <LinkRouter to="/galeria" className="router">
+            <li className="navbar_list_item">GALERIA</li>
+          </LinkRouter>
         </ul>
       </div>
       <MenuIcon className="icono_menu" onClick={() => setBurgerStatus(true)} />
@@ -98,7 +103,7 @@ function NavBar() {
             offset={-70}
             duration={500}
           >
-          <li className="sidebar_list_element">SERVICIOS</li>
+            <li className="sidebar_list_element">SERVICIOS</li>
           </Link>
           <Link
             activeClass="active"
@@ -108,7 +113,7 @@ function NavBar() {
             offset={-70}
             duration={500}
           >
-          <li className="sidebar_list_element">PRODUCTOS</li>
+            <li className="sidebar_list_element">PRODUCTOS</li>
           </Link>
           <Link
             activeClass="active"
@@ -118,8 +123,11 @@ function NavBar() {
             offset={-70}
             duration={500}
           >
-          <li className="sidebar_list_element">TESTIMONIALES</li>
+            <li className="sidebar_list_element">TESTIMONIALES</li>
           </Link>
+          <LinkRouter to="/galeria" className="router">
+            <li className="sidebar_list_element">GALERIA</li>
+          </LinkRouter>
         </ul>
       </SideBar>
     </div>

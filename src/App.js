@@ -1,10 +1,23 @@
-import './App.css';
-import { NavBar, Home, AboutUs, Clients, Services, Products, Testimonials, Contact, Footer } from "./components/index"
+import "./App.css";
+// import { NavBar, Home, AboutUs, Clients, Services, Products, Testimonials, Contact, Footer } from "./components/index"
+import Main from "./views/Main";
+import Galeria from "./views/Galeria";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
     <div className="app">
-      <NavBar />
+      <Router>
+        <Switch>
+          <Route path="/galeria">
+            <Galeria></Galeria>
+          </Route>
+          <Route path="/">
+            <Main></Main>
+          </Route>
+        </Switch>
+      </Router>
+      {/* <NavBar />
       <Home />
       <AboutUs/>
       <Clients/>
@@ -12,7 +25,7 @@ function App() {
       <Products/>
       <Testimonials/>
       <Contact/>
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

@@ -7,7 +7,7 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <div className="contact_container">
+    <div className="contact_container" id="contact">
       <Fade>
         <div className="contact_social_media">
           <div className="contact_element_container">
