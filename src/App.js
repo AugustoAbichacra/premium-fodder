@@ -2,7 +2,7 @@ import "./App.css";
 // import { NavBar, Home, AboutUs, Clients, Services, Products, Testimonials, Contact, Footer } from "./components/index"
 import Main from "./views/Main";
 import Galeria from "./views/Galeria";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (

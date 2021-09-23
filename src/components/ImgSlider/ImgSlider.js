@@ -1,63 +1,44 @@
 import React, { useState, useEffect } from "react";
 import ImageGallery from "react-image-gallery";
-import styled from "styled-components";
 import "./ImgSlider.css";
 
 const images = [
   {
-    original: "img/fardos.jpeg",
-    thumbnail: "img/fardos.jpeg",
-    originalHeight: 500,
-    originalWidth: 500,
+    original: "img/caballos/antes1.jpg",
+    thumbnail: "img/caballos/antes1.jpg",
+    originalHeight: 600,
+    originalWidth: 600,
   },
   {
-    original: "https://picsum.photos/id/1015/1000/600/",
-    thumbnail: "https://picsum.photos/id/1015/250/150/",
-    originalHeight: 500,
-    originalWidth: 500,
+    original: "img/caballos/despues1.jpg",
+    thumbnail: "img/caballos/despues1.jpg",
+    originalHeight: 600,
+    originalWidth: 600,
   },
   {
-    original: "https://picsum.photos/id/1019/1000/600/",
-    thumbnail: "https://picsum.photos/id/1019/250/150/",
-    originalHeight: 500,
-    originalWidth: 500,
+    original: "img/caballos/despues1_2.jpg",
+    thumbnail: "img/caballos/despues1_2.jpg",
+    originalHeight: 600,
+    originalWidth: 600,
   },
   {
-    original: "https://picsum.photos/id/1019/1000/600/",
-    thumbnail: "https://picsum.photos/id/1019/250/150/",
-    originalHeight: 500,
-    originalWidth: 500,
+    original: "img/caballos/antes2.jpg",
+    thumbnail: "img/caballos/antes2.jpg",
+    originalHeight: 600,
+    originalWidth: 600,
   },
   {
-    original: "https://picsum.photos/id/1019/1000/600/",
-    thumbnail: "https://picsum.photos/id/1019/250/150/",
-    originalHeight: 500,
-    originalWidth: 500,
+    original: "img/caballos/despues2.jpg",
+    thumbnail: "img/caballos/despues2.jpg",
+    originalHeight: 600,
+    originalWidth: 600,
   },
   {
-    original: "https://picsum.photos/id/1019/1000/600/",
-    thumbnail: "https://picsum.photos/id/1019/250/150/",
-    originalHeight: 500,
-    originalWidth: 500,
-  },
-  {
-    original: "https://picsum.photos/id/1019/1000/600/",
-    thumbnail: "https://picsum.photos/id/1019/250/150/",
-    originalHeight: 500,
-    originalWidth: 500,
-  },
-  {
-    original: "https://picsum.photos/id/1019/1000/600/",
-    thumbnail: "https://picsum.photos/id/1019/250/150/",
-    originalHeight: 500,
-    originalWidth: 500,
-  },
-  {
-    original: "https://picsum.photos/id/1019/1000/600/",
-    thumbnail: "https://picsum.photos/id/1019/250/150/",
-    originalHeight: 500,
-    originalWidth: 500,
-  },
+    original: "img/caballos/despues2_2.jpg",
+    thumbnail: "img/caballos/despues2_2.jpg",
+    originalHeight: 600,
+    originalWidth: 600,
+  }
 ];
 
 function ImgSlider() {

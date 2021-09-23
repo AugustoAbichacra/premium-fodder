@@ -3,8 +3,6 @@ import Fade from "react-reveal/Fade";
 import Carousel from "react-elastic-carousel";
 import "./Products.css";
 
-const slideImages = ["img/fardos.jpeg", "img/fardos.jpeg", "img/fardos.jpeg"];
-
 const items = [
   { id: 1, title: "img/fardos.jpeg" },
   { id: 2, title: "img/ladolfina.jpeg" },
@@ -52,7 +50,7 @@ function Products() {
       <Fade left>
         <Carousel>
           {items.map((item) => (
-            <img key={item.id} src={item.title}></img>
+            <img key={item.id} src={item.title} alt="imagen de productos"></img>
           ))}
         </Carousel>
         </Fade>

@@ -1,7 +1,6 @@
 import React from "react";
-import styled from "styled-components";
 import {
-  NavBarViews,
+  NavBar,
   ImgSlider,
   Footer,
 } from "../components/index";
@@ -9,7 +8,7 @@ import {
 function Galeria() {
   return (
     <div>
-      <NavBarViews />
+      <NavBar />
       <ImgSlider />
       <Footer/>
     </div>

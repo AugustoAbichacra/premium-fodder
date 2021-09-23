@@ -1,12 +1,12 @@
 import React from "react";
 import NavigateNextIcon from "@material-ui/icons/NavigateNext";
 import Fade from "react-reveal/Fade";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import "./Home.css";
 
 function Home() {
   return (
-    <div className="home_container">
+    <div className="home_container" id="home">
       <div className="home_banner">
         <Fade bottom>
           <h1 className="home_title">
