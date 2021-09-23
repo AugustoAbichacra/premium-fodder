@@ -2,6 +2,7 @@ import React from "react";
 import LocalPhoneIcon from "@material-ui/icons/LocalPhone";
 import EmailIcon from "@material-ui/icons/Mail";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
+import { enviarMensaje } from "../../js/app";
 import Fade from "react-reveal/Fade";
 import "./Contact.css";
 
@@ -42,7 +43,7 @@ function Contact() {
         </div>
         <div className="contact_form_container">
           <h1 className="contact_form_title">CONTACTO</h1>
-          <form className="contact_form">
+          <form className="contact_form" action="/" id="formulario" onSubmit={enviarMensaje}>
             <div className="contact_input_info">
               <label htmlFor="nombre" className="form_label">
                 Nombre
@@ -52,7 +53,7 @@ function Contact() {
                 id="nombre"
                 name="nombre"
                 type="text"
-                placeholder="Nombre"
+                placeholder="Nombre Completo"
               ></input>
             </div>
             <div className="contact_input_info">
@@ -62,7 +63,7 @@ function Contact() {
               <input
                 className="form_input"
                 id="mail"
-                name="mal"
+                name="mail"
                 type="text"
                 placeholder="Mail"
               ></input>
