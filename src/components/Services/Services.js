@@ -8,7 +8,7 @@ function Services() {
             <Fade left>
                 <div className="services_left">
                     <h1 className="services_left_title">Nuestros Servicios</h1>
-                    <img src="./img/fardos.jpeg" alt="Imagen Servicios" className="services_img"></img>
+                    <img src="./img/fardos.webp" alt="Imagen Servicios" className="services_img"></img>
                 </div>
             </Fade>
             <Fade right>

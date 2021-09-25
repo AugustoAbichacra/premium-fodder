@@ -12,7 +12,7 @@ function Testimonials() {
       <Fade>
       <div className="testimonials_elements">
         <div className="testimonial_element">
-          <img src="./img/clients/client1.jpeg" alt="Testimonial 1" className="testimonial_element_img"></img>
+          <img src="./img/clients/client1.webp" alt="Testimonial 1" className="testimonial_element_img"></img>
           <div className="testimonial_element_info">
             <h2 className="testimonial_element_name">Juan Villalba</h2>
             <p className="testimonial_element_position">CEO</p>
@@ -24,7 +24,7 @@ function Testimonials() {
           </div>
         </div>
         <div className="testimonial_element">
-          <img src="./img/clients/client1.jpeg" alt="Testimonial 1" className="testimonial_element_img"></img>
+          <img src="./img/clients/client1.webp" alt="Testimonial 1" className="testimonial_element_img"></img>
           <div className="testimonial_element_info">
             <h2 className="testimonial_element_name">Juan Villalba</h2>
             <p className="testimonial_element_position">CEO</p>
@@ -36,7 +36,7 @@ function Testimonials() {
           </div>
         </div>
         <div className="testimonial_element">
-          <img src="./img/clients/client1.jpeg" alt="Testimonial 1" className="testimonial_element_img"></img>
+          <img src="./img/clients/client1.webp" alt="Testimonial 1" className="testimonial_element_img"></img>
           <div className="testimonial_element_info">
             <h2 className="testimonial_element_name">Juan Villalba</h2>
             <p className="testimonial_element_position">CEO</p>
