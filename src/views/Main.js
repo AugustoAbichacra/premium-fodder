@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  NavBar,
   Home,
   AboutUs,
   Clients,
@@ -8,13 +7,11 @@ import {
   Products,
   Testimonials,
   Contact,
-  Footer,
 } from "../components/index"
 
 function Main() {
   return (
     <div>
-      <NavBar />
       <Home />
       <AboutUs />
       <Clients />
@@ -22,7 +19,6 @@ function Main() {
       <Products />
       <Testimonials />
       <Contact />
-      <Footer />
     </div>
   );
 }

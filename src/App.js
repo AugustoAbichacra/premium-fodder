@@ -1,31 +1,21 @@
 import "./App.css";
-// import { NavBar, Home, AboutUs, Clients, Services, Products, Testimonials, Contact, Footer } from "./components/index"
 import Main from "./views/Main";
 import Galeria from "./views/Galeria";
+import NavBar from "./components/NavBar/NavBar";
+import Footer from "./components/Footer/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="app">
       <Router>
+        <NavBar />
         <Switch>
-          <Route path="/galeria">
-            <Galeria></Galeria>
-          </Route>
-          <Route path="/">
-            <Main></Main>
-          </Route>
+          <Route path="/" exact component={Main} />
+          <Route path="/galeria" component={Galeria} />
         </Switch>
+        <Footer />
       </Router>
-      {/* <NavBar />
-      <Home />
-      <AboutUs/>
-      <Clients/>
-      <Services/>
-      <Products/>
-      <Testimonials/>
-      <Contact/>
-      <Footer /> */}
     </div>
   );
 }

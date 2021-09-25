@@ -4,11 +4,11 @@ import Carousel from "react-elastic-carousel";
 import "./Products.css";
 
 const items = [
-  { id: 1, title: "img/fardos.jpeg" },
-  { id: 2, title: "img/ladolfina.jpeg" },
-  { id: 3, title: "img/fardos.jpeg" },
-  { id: 4, title: "img/fardos.jpeg" },
-  { id: 5, title: "img/fardos.jpeg" },
+  { id: 1, title: "img/fardos.webp" },
+  { id: 2, title: "img/ladolfina.webp" },
+  { id: 3, title: "img/fardos.webp" },
+  { id: 4, title: "img/fardos.webp" },
+  { id: 5, title: "img/fardos.webp" },
 ];
 
 function Products() {

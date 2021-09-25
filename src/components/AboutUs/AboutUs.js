@@ -6,7 +6,7 @@ function AboutUs() {
   return (
     <div className="aboutus_container" id="about">
       <div className="aboutus_left">
-        <img src="./img/aboutus_img.jpeg" className="aboutus_img" alt="Imagen Sobre Nosotros"></img>
+        <img src="./img/aboutus_img.webp" className="aboutus_img" alt="Imagen Sobre Nosotros"></img>
       </div>
       <div className="aboutus_right">
         <Fade>

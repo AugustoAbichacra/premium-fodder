@@ -16,11 +16,11 @@ function Clients() {
                     <h3 className="client_name">La Dolfina</h3>
                 </div>
                 <div className="client_card">
-                    <img className="client_img" alt="Imagen Cliente 1" src="./img/fardos.jpeg"></img>
+                    <img className="client_img" alt="Imagen Cliente 1" src="./img/fardos.webp"></img>
                     <h3 className="client_name">Tortugas Polo Club</h3>
                 </div>
                 <div className="client_card">
-                    <img className="client_img" alt="Imagen Cliente 1" src="./img/aboutus_img.jpeg"></img>
+                    <img className="client_img" alt="Imagen Cliente 1" src="./img/aboutus_img.webp"></img>
                     <h3 className="client_name">La Santa Polo</h3>
                 </div>
             </div>

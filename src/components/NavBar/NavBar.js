@@ -10,10 +10,19 @@ import "./NavBar.css";
 function NavBar() {
   const [show, handleShow] = useState(false);
   const [burgerStatus, setBurgerStatus] = useState(false);
+  const [prueba, setPrueba] = useState(false);
+
+  const propat = () => {
+    setPrueba(!prueba);
+  };
+
   let location = window.location.pathname;
   let locationVerify = false;
+
   if (location === "/galeria" || location === "/about-us") {
     locationVerify = true;
+  } else {
+    locationVerify = false;
   }
 
   useEffect(() => {
@@ -116,7 +125,9 @@ function NavBar() {
             </Link>
           )}
           <LinkRouter to="/galeria" className="router">
-            <li className="navbar_list_item">GALERIA</li>
+            <li className="navbar_list_item" onClick={propat}>
+              GALERIA
+            </li>
           </LinkRouter>
         </ul>
       </div>

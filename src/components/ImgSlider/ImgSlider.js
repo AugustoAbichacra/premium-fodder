@@ -10,14 +10,14 @@ const images = [
     originalWidth: 600,
   },
   {
-    original: "img/caballos/despues1.jpg",
-    thumbnail: "img/caballos/despues1.jpg",
+    original: "img/caballos/despues3.webp",
+    thumbnail: "img/caballos/despues3.webp",
     originalHeight: 600,
     originalWidth: 600,
   },
   {
-    original: "img/caballos/despues1_2.jpg",
-    thumbnail: "img/caballos/despues1_2.jpg",
+    original: "img/caballos/despues3_2.webp",
+    thumbnail: "img/caballos/despues3_2.webp",
     originalHeight: 600,
     originalWidth: 600,
   },
