@@ -12,7 +12,7 @@ function Clients() {
             <Fade left>
             <div className="clients_cards">
                 <div className="client_card">
-                    <img className="client_img" alt="Imagen Cliente 1" src="./img/clients/cliente2.jpg"></img>
+                    <img className="client_img" alt="Imagen Cliente 1" src="./img/clients/cliente2.webp"></img>
                     <h3 className="client_name">La Dolfina</h3>
                 </div>
                 <div className="client_card">
