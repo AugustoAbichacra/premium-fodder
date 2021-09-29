@@ -19,7 +19,7 @@ function NavBar() {
   let location = window.location.pathname;
   let locationVerify = false;
 
-  if (location === "/galeria" || location === "/about-us") {
+  if (location === "/galeria" || location === "/sobre-nosotros") {
     locationVerify = true;
   } else {
     locationVerify = false;

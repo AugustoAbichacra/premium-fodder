@@ -1,6 +1,7 @@
 import "./App.css";
 import Main from "./views/Main";
 import Galeria from "./views/Galeria";
+import AboutUs from "./views/AboutUs"
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -13,6 +14,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Main} />
           <Route path="/galeria" component={Galeria} />
+          <Route path="/sobre-nosotros" component={AboutUs} />
         </Switch>
         <Footer />
       </Router>
