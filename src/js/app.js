@@ -1,6 +1,7 @@
 import emailjs from 'emailjs-com';
 import swal from 'sweetalert';
-
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 export function enviarMensaje(e) {
   e.preventDefault();
@@ -18,4 +19,14 @@ export function enviarMensaje(e) {
         console.log(error.text);
     });
   e.target.reset();
+}
+
+export function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
 }

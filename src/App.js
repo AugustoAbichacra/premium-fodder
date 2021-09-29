@@ -4,12 +4,14 @@ import Galeria from "./views/Galeria";
 import AboutUs from "./views/AboutUs"
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
+import {ScrollToTop} from "./js/app"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="app">
       <Router>
+        <ScrollToTop/>
         <NavBar />
         <Switch>
           <Route path="/" exact component={Main} />
