@@ -60,14 +60,19 @@
 
     .aboutus_container{
         margin-top: 30px;
-        
     }
+
+    .aboutus_right{
+    
+        padding-left: 40px;
+    }
+
     .aboutus_img{
         display: none;
     }
 
     .aboutus_title{
-        font-size: 2rem;
+        font-size: 2.3rem;
     }
 
     .aboutus_info{
