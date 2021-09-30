@@ -1,12 +1,13 @@
 .aboutus_container{
     margin-top: 10vh;
-    height: 60vh;
+    height: auto;
     width: 100vw;
     color: white;
     text-align: center;
     position: relative;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 30px;
 }
 
 .aboutus_img{
@@ -55,17 +56,41 @@
     background-color:rgba(60, 179, 113, 1);
 }
 
-@media (max-width: 680px) {
+@media (max-width: 600px) {
+
+    .aboutus_container{
+        margin-top: 30px;
+        
+    }
     .aboutus_img{
         display: none;
     }
 
     .aboutus_title{
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 
     .aboutus_info{
         font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .aboutus_container{
+        margin-top: 30px;
+        
+    }
+    .aboutus_img{
+        display: none;
+    }
+
+    .aboutus_title{
+        font-size: 2.5rem;
+    }
+
+    .aboutus_info{
+        font-size: 1.2rem;
     }
 }
 

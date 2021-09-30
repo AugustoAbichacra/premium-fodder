@@ -16,7 +16,7 @@ function Products() {
     <div className="products_container" id="products">
       <Fade left>
         <div className="products_left">
-          <h1 className="products_left_title">Nuestros Productos</h1>
+          <h1 className="products_left_title">Nuestras Formulaciones</h1>
           <div className="products_element">
             <p className="products_element_numeration">01</p>
             <div className="products_element_info">
