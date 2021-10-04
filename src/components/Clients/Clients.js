@@ -6,7 +6,7 @@ function Clients() {
     return (
         <div className="clients_container">
             <Fade >
-            <h1 className="clients_title">Nuestros Clientes</h1>
+            <h1 className="clients_title">NUESTROS CLIENTES</h1>
             <p className="clients_info">Desde el inicio brindamos la mejor  <span style={{fontWeight:"bold"}}>  asesoría </span> y desarrollamos la  <span style={{fontWeight:"bold"}}> dieta requerida </span>para cada necesidad <br></br> Algunos de nuestros clientes:</p>
             </Fade>
             <Fade left>

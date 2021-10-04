@@ -5,25 +5,25 @@ import "./AboutUsView.css";
 
 const informacion = [
   {
-    titulo: "TRAYECTORIA",
+    titulo: "¿QUIENES SOMOS?",
     texto:
-      "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose injected humour and the like.",
+      "Somos una empresa fundada en 2008 dedicada a la nutrición equina para deportes de alta competencia. Cada formulación que hacemos es pensada individualmente para cada caballo y el deporte realizado. Nos aseguramos de llevar al animal al 100% de su rendimiento",
     posicion: "left",
-    image: "img/bale.png",
+    image: "img/bale2.png",
   },
   {
-    titulo: "TRAYECTORIA",
+    titulo: "¿QUE HACEMOS?",
     texto:
       "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose injected humour and the like.",
     posicion: "right",
-    image: "img/bale.png",
+    image: "img/seeds.png",
   },
   {
-    titulo: "TRAYECTORIA",
+    titulo: "¿COMO LO HACEMOS?",
     texto:
       "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose injected humour and the like.",
     posicion: "left",
-    image: "img/bale.png",
+    image: "img/herradura.png",
   },
 ];
 function AboutUsView() {

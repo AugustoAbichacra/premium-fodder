@@ -7,7 +7,7 @@ function Services() {
         <div className="services_container" id="services">
             <Fade left>
                 <div className="services_left">
-                    <h1 className="services_left_title">Nuestros Servicios</h1>
+                    <h1 className="services_left_title">NUESTROS SERVICIOS</h1>
                     <img src="./img/fardos.webp" alt="Imagen Servicios" className="services_img"></img>
                 </div>
             </Fade>

@@ -11,7 +11,7 @@ function AboutUs() {
       </div>
       <div className="aboutus_right">
         <Fade>
-          <h1 className="aboutus_title">Sobre Nosotros</h1>
+          <h1 className="aboutus_title">SOBRE NOSOTROS</h1>
           <p className="aboutus_info">Somos una empresa dedicada a la <span style={{fontWeight:"bold"}}> nutrición equina </span> para deportes de alta competencia desde hace más de 10 años. Nos encargamos de producir el  <span style={{fontWeight:"bold"}}> alimento adecuado </span> y acompañar todo el desarrolo del animal.</p>
           <LinkRouter to="/sobre-nosotros" className="router">
           <button className="aboutus_button">Leer Más</button>
