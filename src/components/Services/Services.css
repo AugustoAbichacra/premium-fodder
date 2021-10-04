@@ -7,7 +7,6 @@
 }
 
 .services_left{
-    text-align: left;
     padding: 40px;
     width: 50vw;
 }
@@ -94,6 +93,9 @@
 
     .services_element{
         margin-bottom: 60px;
+    }
+    .services_left_title{
+        font-size: 2.5rem;
     }
 
     .services_element_numeration{
