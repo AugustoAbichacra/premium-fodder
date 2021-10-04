@@ -60,6 +60,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
   }
   .about-us-view_element.div_blanco {
     flex-direction: column-reverse;
